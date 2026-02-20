@@ -20,5 +20,14 @@
         <h1>
             Current date: <%= PrintDate() %>
         </h1>
+        <p>
+            Remote Host: <%= request.getRemoteHost() %>
+        </p>
+        <p>
+            Session ID: <%= session.getId() %>
+        </p>
+        <p>
+            Remote User: <%= request.getRemoteUser() %>
+        </p>
     </body>
 </html>

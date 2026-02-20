@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class Product implements Serializable {
     private String name;
     private double price;
+    private String type;
 
     public Product() {}
 
@@ -22,5 +23,13 @@ public class Product implements Serializable {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

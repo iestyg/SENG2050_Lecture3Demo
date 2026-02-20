@@ -13,6 +13,9 @@
         <label for="price">Product Price:</label>
         <input type="text" id="price" name="price"> 
         <br>
+        <label for="type">Product Type:</label>
+        <input type="text" id="type" name="type">
+        <br>
         <button type="submit">Submit</button>
     </form>
 </body>

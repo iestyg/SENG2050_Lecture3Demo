@@ -10,6 +10,7 @@
     <h2>Product Details</h2>
     <p>Product Name: <jsp:getProperty name="product" property="name" /></p>
     <p>Product Price: <jsp:getProperty name="product" property="price" /></p>
+    <p>Product Type: <jsp:getProperty name="product" property="type" /></p>
 
     <jsp:setProperty name="product" property="price" value="200" />
     <p>Product Price (after update): <jsp:getProperty name="product" property="price" /></p> 
